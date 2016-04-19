@@ -6,7 +6,7 @@ import React, {
   Image,
   View
 } from 'react-native';
-
+import Login from './login'
 import {Provider} from 'react-redux'
 import {Scene, Router, TabBar, Modal, Schema, Actions, Reducer} from 'react-native-router-flux'
 
@@ -50,12 +50,12 @@ export default class App extends Component {
         <Router sceneStyle={{backgroundColor:'#F7F7F7'}}>
           <Scene key="modal" component={Modal} >
               <Scene key="root">
+              <Scene key='login' direction='vertical' component={Login} initial={true} style={{flex:1, backgroundColor:'transparent'}}/>
                   <Scene 
                     key="categories" 
                     direction="vertical" 
                     component={Categories} 
                     title="Gif Categories" 
-                    initial={true} 
                     style={{flex:1, backgroundColor:'transparent'}}/>
                   <Scene key="selector" component={Selector} title="TifGif" style={{flex:1, backgroundColor:'transparent'}}/>
                   <Scene key="profile" component={Profile} title="TifGif" style={{flex:1, backgroundColor:'transparent'}}/>
