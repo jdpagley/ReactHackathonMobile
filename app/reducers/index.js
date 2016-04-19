@@ -5,7 +5,8 @@ import {
   REMOVE_FROM_LIKES,
   REMOVE_FROM_DISLIKES,
   ADD_CATEGORY,
-  REMOVE_CATEGORY
+  REMOVE_CATEGORY,
+  ADD_USER
 } from '../actions'
 
 /**
@@ -47,9 +48,24 @@ function userCategories(state = [], action) {
       return state;
   }
 }
+function addUser(state = {}, action) {
+  switch (action.type) {
+    case 'ADD_USER':
+      return Object.assign({}, state, {
+        username: action.username
+      });
+
+    default:
+        return state;
+    }
+}
 
 function user(state = {name: 'React Hacker', liked: [], disliked: [], categories: []}, action) {
   switch(action.type) {
+    case ADD_USER:
+      return Object.assign({}, state, {
+        username: action.username,
+      });
     case LIKE:
     case REMOVE_FROM_LIKES:
       return Object.assign({}, state, {
