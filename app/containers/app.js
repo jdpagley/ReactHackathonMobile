@@ -20,15 +20,31 @@ const initialStoreState = {
     liked: [],
     disliked: []
   },
-  categories: ['Fail', 'Goats'],
+  categories: ['Cats', 'Goats', 'StarWars', 'Trump'],
   gifs: {
-    Fail: [ 
-      'http://i.imgur.com/J3I9Iu8.gif',
-      'http://cdn.smosh.com/sites/default/files/legacy.images/smosh-pit/092010/dancefail-4.gif'
+    Cats: [ 
+      'http://i.giphy.com/W8krmZSDxPIfm.gif',
+      'http://i.giphy.com/LaH30pQFwXJ7i.gif',
+      'http://i.giphy.com/c7kqZMtzMLpG8.gif',
+      'http://i.giphy.com/p6DsF6TrStko8.gif'
     ],
     Goats: [
-      'http://p.fod4.com/p/media/849afa2424/TRAhQum6S0O9IQ6whDto_g8.gif',
-      'https://media.giphy.com/media/fF1Eb1whwSzw4/giphy.gif'
+      'http://i.giphy.com/xT0BKvuvDLDDYK0fO8.gif',
+      'http://i.giphy.com/3oEdvbdNAFFA8XZzSo.gif',
+      'http://i.giphy.com/iteH7x9sWBccM.gif',
+      'http://i.giphy.com/11kHba1r2SK7AY.gif'
+    ],
+    StarWars: [
+      'http://i.giphy.com/10juQ7fAaQjuHS.gif',
+      'http://i.giphy.com/iXQ8SgaMQAgtq.gif',
+      'http://i.giphy.com/3o7abIn8H8TTzmQrcc.gif',
+      'http://i.giphy.com/Ov5NiLVXT8JEc.gif'
+    ],
+    Trump: [
+      'http://i.giphy.com/6kVhzpAV3TMCQ.gif',
+      'http://i.giphy.com/jSB2l4zJ82Rvq.gif',
+      'http://i.giphy.com/CQwNwVTNNLC6Y.gif',
+      'http://i.giphy.com/xT0BKvuvDLDDYK0fO8.gif'
     ]
   }
 };
