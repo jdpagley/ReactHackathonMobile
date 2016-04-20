@@ -11,7 +11,7 @@ import {Provider} from 'react-redux'
 import {Scene, Router, TabBar, Modal, Schema, Actions, Reducer} from 'react-native-router-flux'
 
 /**
- * Initial Store State 
+ * Initial Store State
  */
 const initialStoreState = {
   user: {
@@ -22,7 +22,7 @@ const initialStoreState = {
   },
   categories: ['Cats', 'Goats', 'StarWars', 'Trump'],
   gifs: {
-    Cats: [ 
+    Cats: [
       'http://i.giphy.com/W8krmZSDxPIfm.gif',
       'http://i.giphy.com/LaH30pQFwXJ7i.gif',
       'http://i.giphy.com/c7kqZMtzMLpG8.gif',
@@ -68,12 +68,11 @@ export default class App extends Component {
           <Scene key="modal" component={Modal} >
               <Scene key="root">
               <Scene key='login' direction='vertical' component={Login} initial={true} style={{flex:1, backgroundColor:'transparent'}}/>
-                  <Scene 
-                    key="categories" 
-                    direction="vertical" 
-                    component={Categories} 
-                    title="Fig Trees" 
-                    initial={true} 
+                  <Scene
+                    key="categories"
+                    direction="vertical"
+                    component={Categories}
+                    title="Fig Trees"
                     style={{flex:1, backgroundColor:'transparent'}}/>
                   <Scene key="selector" component={Selector} title="Fig Finder" style={{flex:1, backgroundColor:'transparent'}}/>
                   <Scene key="completion" component={Completion} title="Fig Full" style={{flex:1, backgroundColor:'transparent'}}/>
