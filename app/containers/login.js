@@ -86,7 +86,6 @@ const styles = StyleSheet.create({
   },
   logo:{
     alignItems:'center',
-    marginLeft:50,
     marginBottom: 20
   }
 });
