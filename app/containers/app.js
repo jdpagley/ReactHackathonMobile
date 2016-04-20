@@ -42,6 +42,7 @@ const store = configureStore(initialStoreState);
 import Categories from './categories'
 import Selector from './selector'
 import Profile from './profile'
+import Completion from './completion'
 
 export default class App extends Component {
   render() {
@@ -54,11 +55,12 @@ export default class App extends Component {
                     key="categories" 
                     direction="vertical" 
                     component={Categories} 
-                    title="Gif Categories" 
+                    title="Fig Trees" 
                     initial={true} 
                     style={{flex:1, backgroundColor:'transparent'}}/>
-                  <Scene key="selector" component={Selector} title="TifGif" style={{flex:1, backgroundColor:'transparent'}}/>
-                  <Scene key="profile" component={Profile} title="TifGif" style={{flex:1, backgroundColor:'transparent'}}/>
+                  <Scene key="selector" component={Selector} title="Fig Finder" style={{flex:1, backgroundColor:'transparent'}}/>
+                  <Scene key="completion" component={Completion} title="Fig Full" style={{flex:1, backgroundColor:'transparent'}}/>
+                  <Scene key="profile" component={Profile} title="Fig Bucket" style={{flex:1, backgroundColor:'transparent'}}/>
               </Scene>
           </Scene>
         </Router>
