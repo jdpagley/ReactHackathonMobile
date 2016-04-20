@@ -7,7 +7,7 @@ import React, {
 } from 'react-native';
 import {connect} from 'react-redux'
 import {Actions as RouterActions} from 'react-native-router-flux'
-import Button from 'react-native-button/Button'
+import Button from '../button.js';
 import Counter from '../components/counter'
 
 const styles = StyleSheet.create({
@@ -15,8 +15,14 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#FFF',
-  }
+    backgroundColor: '#19E3C6',
+  },
+  text: {
+    marginTop: 10,
+    color: '#D7FDFF',
+    fontSize: 20,
+    fontWeight: '600',
+  },
 });
 
 class Completion extends Component {
@@ -33,10 +39,10 @@ class Completion extends Component {
 
     return (
       <View style={styles.container}>
-        <Counter preface="Total Likes:" count={user.liked.length} /> 
-        <Counter preface="Total Dislikes:" count={user.disliked.length} /> 
-        <Text>All figs have been picked!</Text>
-        <Button onPress={RouterActions.profile}>My Profile</Button>
+        <Counter style={styles.text} preface="Total Likes:" count={user.liked.length} />
+        <Counter style={styles.text} preface="Total Dislikes:" count={user.disliked.length} />
+        <Text style={styles.text}>All figs have been picked!</Text>
+        <Button onPress={RouterActions.profile} text="My Profile" />
       </View>
     );
   }
