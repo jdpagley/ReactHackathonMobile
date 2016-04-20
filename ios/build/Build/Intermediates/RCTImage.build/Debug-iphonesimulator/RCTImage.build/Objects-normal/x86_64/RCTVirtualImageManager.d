@@ -1,5 +1,13 @@
 <<<<<<< HEAD
 dependencies: \
+  /Users/kellyrhodes/Desktop/ReactHackathonMobile/node_modules/react-native/Libraries/Image/RCTVirtualImageManager.m \
+  /Users/kellyrhodes/Desktop/ReactHackathonMobile/node_modules/react-native/Libraries/Image/RCTVirtualImageManager.h \
+  ../../React/Views/RCTViewManager.h ../../React/Base/RCTBridgeModule.h \
+  ../../React/Base/RCTDefines.h ../../React/Base/RCTConvert.h \
+  ../../React/Layout/Layout.h
+=======
+<<<<<<< HEAD
+dependencies: \
   /Users/jeremypagley/Desktop/ReactHackathonMobile/node_modules/react-native/Libraries/Image/RCTVirtualImageManager.m \
   /Users/jeremypagley/Desktop/ReactHackathonMobile/node_modules/react-native/Libraries/Image/RCTVirtualImageManager.h \
   ../../React/Views/RCTViewManager.h ../../React/Base/RCTBridgeModule.h \
@@ -20,4 +28,5 @@ dependencies: \
   /Users/jeremypagley/Desktop/ReactHackathonMobile/node_modules/react-native/Libraries/Image/RCTResizeMode.h
 =======
 dependencies:
+>>>>>>> master
 >>>>>>> master
