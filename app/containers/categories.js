@@ -8,7 +8,7 @@ import React, {
 } from 'react-native';
 import {connect} from 'react-redux'
 import {bindActionCreators} from 'redux'
-import Button from 'react-native-button/Button'
+import Button from '../button.js';
 import {Actions as RouterActions} from 'react-native-router-flux'
 import * as actionCreators from '../actions'
 
@@ -51,22 +51,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#19E3C6',
   },
-  nextButton: {
-    height: 60,
-    borderRadius: 8,
-    borderColor: '#FF7FBF',
-    borderWidth: 2,
-    backgroundColor: '#FF7FBF',
-    margin: 20,
-    padding: 20,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  nextButtonText: {
-    color: '#D7FDFF',
-    fontSize: 20,
-    fontWeight: '600',
-  },
 });
 
 class Categories extends Component {
@@ -96,9 +80,9 @@ class Categories extends Component {
     return (
       <View style={styles.container}>
         {categoryNodes}
-        <TouchableHighlight style={styles.nextButton} onPress={() => RouterActions.selector()}>
-          <Text style={styles.nextButtonText}>Find Your Perfect Matches</Text>
-        </TouchableHighlight>
+        <Button
+					onPress={() => RouterActions.selector()}
+					text="find your perfect matches" />
       </View>
     );
   }
