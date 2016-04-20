@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/Josh/Documents/Personal/DevTutorials/AwesomeProject/node_modules/react-native/React/Base/RCTAssert.m \
-  /Users/Josh/Documents/Personal/DevTutorials/AwesomeProject/node_modules/react-native/React/Base/RCTAssert.h \
-  /Users/Josh/Documents/Personal/DevTutorials/AwesomeProject/node_modules/react-native/React/Base/RCTDefines.h \
-  /Users/Josh/Documents/Personal/DevTutorials/AwesomeProject/node_modules/react-native/React/Base/RCTLog.h
+  /Users/jeremypagley/Desktop/ReactHackathonMobile/node_modules/react-native/React/Base/RCTAssert.m \
+  /Users/jeremypagley/Desktop/ReactHackathonMobile/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/jeremypagley/Desktop/ReactHackathonMobile/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/jeremypagley/Desktop/ReactHackathonMobile/node_modules/react-native/React/Base/RCTLog.h
