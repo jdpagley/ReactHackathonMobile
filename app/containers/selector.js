@@ -8,9 +8,9 @@ import React, {
 } from 'react-native';
 import {connect} from 'react-redux'
 import {bindActionCreators} from 'redux'
-import Button from 'react-native-button/Button'
 import {Actions as RouterActions} from 'react-native-router-flux'
 import * as actionCreators from '../actions' 
+import Button from 'react-native-button/Button'
 
 // Styles *********************************
 const styles = StyleSheet.create({
@@ -116,7 +116,7 @@ class Selector extends Component {
     actions.like(gif);
 
     //When we hit the end of the array go to profile view
-    if ((gifs.length - 1) <= newActiveIndex) return RouterActions.profile();
+    if ((gifs.length - 1) <= newActiveIndex) return RouterActions.completion();
 
   }
 
@@ -131,7 +131,7 @@ class Selector extends Component {
     actions.dislike(gif);
 
     //When we hit the end of the array go to profile view
-    if ((gifs.length - 1) <= newActiveIndex) return RouterActions.profile();
+    if ((gifs.length - 1) <= newActiveIndex) return RouterActions.completion();
 
   }
 
