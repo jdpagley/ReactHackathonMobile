@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /Users/kellyrhodes/Desktop/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTVirtualImageManager.o
 /Users/kellyrhodes/Desktop/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTImageStoreManager.o
 /Users/kellyrhodes/Desktop/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTImageViewManager.o
@@ -10,3 +11,32 @@
 /Users/kellyrhodes/Desktop/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTShadowVirtualImage.o
 /Users/kellyrhodes/Desktop/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTXCAssetImageLoader.o
 /Users/kellyrhodes/Desktop/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTImageUtils.o
+=======
+<<<<<<< HEAD
+/Users/jeremypagley/Desktop/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTVirtualImageManager.o
+/Users/jeremypagley/Desktop/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTImageStoreManager.o
+/Users/jeremypagley/Desktop/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTImageViewManager.o
+/Users/jeremypagley/Desktop/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTGIFImageDecoder.o
+/Users/jeremypagley/Desktop/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTImageLoader.o
+/Users/jeremypagley/Desktop/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTImageEditingManager.o
+/Users/jeremypagley/Desktop/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTResizeMode.o
+/Users/jeremypagley/Desktop/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTImageView.o
+/Users/jeremypagley/Desktop/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTImageBlurUtils.o
+/Users/jeremypagley/Desktop/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTShadowVirtualImage.o
+/Users/jeremypagley/Desktop/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTXCAssetImageLoader.o
+/Users/jeremypagley/Desktop/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTImageUtils.o
+=======
+/Users/brandybergh/Desktop/sites/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTVirtualImageManager.o
+/Users/brandybergh/Desktop/sites/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTImageStoreManager.o
+/Users/brandybergh/Desktop/sites/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTImageViewManager.o
+/Users/brandybergh/Desktop/sites/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTGIFImageDecoder.o
+/Users/brandybergh/Desktop/sites/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTImageLoader.o
+/Users/brandybergh/Desktop/sites/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTImageEditingManager.o
+/Users/brandybergh/Desktop/sites/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTResizeMode.o
+/Users/brandybergh/Desktop/sites/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTImageView.o
+/Users/brandybergh/Desktop/sites/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTImageBlurUtils.o
+/Users/brandybergh/Desktop/sites/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTShadowVirtualImage.o
+/Users/brandybergh/Desktop/sites/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTXCAssetImageLoader.o
+/Users/brandybergh/Desktop/sites/ReactHackathonMobile/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/Objects-normal/x86_64/RCTImageUtils.o
+>>>>>>> master
+>>>>>>> master

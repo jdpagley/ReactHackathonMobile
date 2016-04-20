@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/Josh/Documents/Personal/DevTutorials/AwesomeProject/ios/AwesomeProject/AppDelegate.m \
-  /Users/Josh/Documents/Personal/DevTutorials/AwesomeProject/ios/AwesomeProject/AppDelegate.h \
+  /Users/jeremypagley/Desktop/ReactHackathonMobile/ios/AwesomeProject/AppDelegate.m \
+  /Users/jeremypagley/Desktop/ReactHackathonMobile/ios/AwesomeProject/AppDelegate.h \
   ../node_modules/react-native/React/Base/RCTRootView.h \
   ../node_modules/react-native/React/Base/RCTBridge.h \
   ../node_modules/react-native/React/Base/RCTBridgeDelegate.h \

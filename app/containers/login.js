@@ -45,18 +45,19 @@ class LoginScreen extends Component {
       <View style={styles.container}>
         <View>
           {error}
-          <Image style={styles.icon}
+          <Image style={styles.logo}
               source={require('../assets/fig_logo2x.png')} />
           <TextInput
             style={styles.input}
-            placeholder="email"
             onChangeText={email => this.setState({user})}
             value={username}
           />
           <TouchableHighlight 
 					 onPress={this.loginEmail}
 					style={styles.button}>
-					<Text style={styles.buttonText}> SUBMIT </Text>
+					<Image 
+          style={styles.button}
+          source={require('../assets/login_button.png')}/>
 				</TouchableHighlight>
 
          
@@ -71,19 +72,27 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    marginTop:200
+    backgroundColor:'#19e3c6'
   },
-
   input: {
     alignSelf: 'center',
-    height: 44,
-    width: 200,
-    borderColor: 'gray',
-    borderWidth: 1
+    height: 60,
+    width: 256,
+    borderColor: '#d7fdff',
+    borderWidth: 2,
+    marginTop:10,
+    fontFamily: 'Avenir',
+    paddingLeft:10,
+    color:'#888'
   },
-  icon:{
-  	width:400,
-  	
+  button:{
+    marginTop:10,
+    borderRadius:10
+  },
+  logo:{
+    alignItems:'center',
+    marginLeft:50,
+    marginBottom: 20
   }
 });
 
