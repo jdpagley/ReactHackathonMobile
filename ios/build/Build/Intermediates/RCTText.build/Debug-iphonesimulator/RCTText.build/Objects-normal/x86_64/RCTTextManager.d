@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/Josh/Documents/Personal/DevTutorials/AwesomeProject/node_modules/react-native/Libraries/Text/RCTTextManager.m \
-  /Users/Josh/Documents/Personal/DevTutorials/AwesomeProject/node_modules/react-native/Libraries/Text/RCTTextManager.h \
+  /Users/jeremypagley/Desktop/ReactHackathonMobile/node_modules/react-native/Libraries/Text/RCTTextManager.m \
+  /Users/jeremypagley/Desktop/ReactHackathonMobile/node_modules/react-native/Libraries/Text/RCTTextManager.h \
   ../../React/Views/RCTViewManager.h ../../React/Base/RCTBridgeModule.h \
   ../../React/Base/RCTDefines.h ../../React/Base/RCTConvert.h \
   ../../React/Layout/Layout.h ../../React/Views/RCTAnimationType.h \
@@ -13,9 +13,9 @@ dependencies: \
   ../../React/Base/RCTInvalidating.h \
   ../../React/Base/RCTJavaScriptExecutor.h \
   ../../React/Modules/RCTAccessibilityManager.h \
-  /Users/Josh/Documents/Personal/DevTutorials/AwesomeProject/node_modules/react-native/Libraries/Text/RCTShadowRawText.h \
+  /Users/jeremypagley/Desktop/ReactHackathonMobile/node_modules/react-native/Libraries/Text/RCTShadowRawText.h \
   ../../React/Views/RCTShadowView.h ../../React/Base/RCTRootView.h \
-  /Users/Josh/Documents/Personal/DevTutorials/AwesomeProject/node_modules/react-native/Libraries/Text/RCTShadowText.h \
-  /Users/Josh/Documents/Personal/DevTutorials/AwesomeProject/node_modules/react-native/Libraries/Text/RCTText.h \
-  /Users/Josh/Documents/Personal/DevTutorials/AwesomeProject/node_modules/react-native/Libraries/Text/RCTTextView.h \
+  /Users/jeremypagley/Desktop/ReactHackathonMobile/node_modules/react-native/Libraries/Text/RCTShadowText.h \
+  /Users/jeremypagley/Desktop/ReactHackathonMobile/node_modules/react-native/Libraries/Text/RCTText.h \
+  /Users/jeremypagley/Desktop/ReactHackathonMobile/node_modules/react-native/Libraries/Text/RCTTextView.h \
   ../../React/Views/RCTView.h ../../React/Views/UIView+React.h
