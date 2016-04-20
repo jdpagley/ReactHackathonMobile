@@ -4,6 +4,7 @@ export const DISLIKE='ADD_DISLIKE'
 export const REMOVE_FROM_DISLIKES='REMOVE_FROM_DISLIKES'
 export const ADD_CATEGORY = 'ADD_CATEGORY'
 export const REMOVE_CATEGORY = 'REMOVE_CATEGORY'
+export const ADD_USER = 'ADD_USER'
 
 export function dislike(gif) {
   return {
@@ -45,4 +46,10 @@ export function removeCategory(category) {
     type: REMOVE_CATEGORY,
     payload: {category}
   };
+}
+export function addUser(username) {
+  return {
+    type: ADD_USER,
+    username,
+  }
 }

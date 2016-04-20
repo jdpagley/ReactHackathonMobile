@@ -3,7 +3,8 @@ import React, {
   StyleSheet,
   View,
   Image,
-  PropTypes
+  PropTypes, 
+  Text
 } from 'react-native';
 import {connect} from 'react-redux'
 import {bindActionCreators} from 'redux'
@@ -11,6 +12,7 @@ import {Actions as RouterActions} from 'react-native-router-flux'
 import * as actionCreators from '../actions' 
 import Button from 'react-native-button/Button'
 
+// Styles *********************************
 const styles = StyleSheet.create({
   activeGif: {
     width: 400,
@@ -20,9 +22,20 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#FFF',
+    backgroundColor: '#19e3c6'
+  },
+  text: {
+    fontFamily: 'Avenir',
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#d7fdff'
+  },
+  spacer:{
+    flex: 1
   }
 });
+
+// Selector class ************************
 
 class Selector extends Component {
 
@@ -42,13 +55,20 @@ class Selector extends Component {
 
     return (
       <View style={styles.container}>
+        <View style={styles.spacer}></View>
+        <View style={styles.spacer}></View>
+        <Text style={styles.text}>Love it or Leave it?</Text>
+        <View style={styles.spacer}></View>
         <Image source={{uri:gifs[activeIndex]}} style={styles.activeGif}/>
+        <View style={styles.spacer}></View>
         <Button onPress={() => this.handleLike(gifs[activeIndex])}>
           Like 
         </Button>
         <Button onPress={() => this.handleDislike(gifs[activeIndex])}>
           Disike 
         </Button>
+        <View style={styles.spacer}></View>
+        <View style={styles.spacer}></View>
       </View>
     );
   }

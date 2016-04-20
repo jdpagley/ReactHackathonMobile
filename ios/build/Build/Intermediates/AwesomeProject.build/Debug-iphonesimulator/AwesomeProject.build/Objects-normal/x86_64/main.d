@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/Josh/Documents/Personal/DevTutorials/AwesomeProject/ios/AwesomeProject/main.m \
-  /Users/Josh/Documents/Personal/DevTutorials/AwesomeProject/ios/AwesomeProject/AppDelegate.h
+  /Users/jeremypagley/Desktop/ReactHackathonMobile/ios/AwesomeProject/main.m \
+  /Users/jeremypagley/Desktop/ReactHackathonMobile/ios/AwesomeProject/AppDelegate.h

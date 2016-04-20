@@ -1,4 +1,11 @@
-/Users/Josh/Documents/Personal/DevTutorials/AwesomeProject/ios/build/Build/Intermediates/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/Objects-normal/x86_64/RCTSRWebSocket.o
-/Users/Josh/Documents/Personal/DevTutorials/AwesomeProject/ios/build/Build/Intermediates/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/Objects-normal/x86_64/RCTWebSocketModule.o
-/Users/Josh/Documents/Personal/DevTutorials/AwesomeProject/ios/build/Build/Intermediates/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/Objects-normal/x86_64/RCTWebSocketExecutor.o
-/Users/Josh/Documents/Personal/DevTutorials/AwesomeProject/ios/build/Build/Intermediates/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/Objects-normal/x86_64/RCTWebSocketManager.o
+<<<<<<< HEAD
+/Users/jeremypagley/Desktop/ReactHackathonMobile/ios/build/Build/Intermediates/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/Objects-normal/x86_64/RCTSRWebSocket.o
+/Users/jeremypagley/Desktop/ReactHackathonMobile/ios/build/Build/Intermediates/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/Objects-normal/x86_64/RCTWebSocketModule.o
+/Users/jeremypagley/Desktop/ReactHackathonMobile/ios/build/Build/Intermediates/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/Objects-normal/x86_64/RCTWebSocketExecutor.o
+/Users/jeremypagley/Desktop/ReactHackathonMobile/ios/build/Build/Intermediates/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/Objects-normal/x86_64/RCTWebSocketManager.o
+=======
+/Users/brandybergh/Desktop/sites/ReactHackathonMobile/ios/build/Build/Intermediates/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/Objects-normal/x86_64/RCTSRWebSocket.o
+/Users/brandybergh/Desktop/sites/ReactHackathonMobile/ios/build/Build/Intermediates/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/Objects-normal/x86_64/RCTWebSocketModule.o
+/Users/brandybergh/Desktop/sites/ReactHackathonMobile/ios/build/Build/Intermediates/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/Objects-normal/x86_64/RCTWebSocketExecutor.o
+/Users/brandybergh/Desktop/sites/ReactHackathonMobile/ios/build/Build/Intermediates/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/Objects-normal/x86_64/RCTWebSocketManager.o
+>>>>>>> master

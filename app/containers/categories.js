@@ -2,27 +2,71 @@ import React, {
   Component,
   StyleSheet,
   View,
-  PropTypes
+  PropTypes,
+  Text,
+  TouchableHighlight
 } from 'react-native';
 import {connect} from 'react-redux'
 import {bindActionCreators} from 'redux'
 import Button from 'react-native-button/Button'
 import {Actions as RouterActions} from 'react-native-router-flux'
-import * as actionCreators from '../actions' 
+import * as actionCreators from '../actions'
 
 const styles = StyleSheet.create({
   active: {
-    color: 'green'
+    height: 60,
+    borderRadius: 8,
+    borderColor: '#FF7FBF',
+    borderWidth: 2,
+    backgroundColor: '#FF7FBF',
+    margin: 20,
+    padding: 20,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   inactive: {
-    color: 'black' 
+    height: 60,
+    borderRadius: 8,
+    borderColor: '#D7FDFF',
+    borderWidth: 2,
+    backgroundColor: 'transparent',
+    margin: 20,
+    padding: 20,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  activeText: {
+    color: '#D7FDFF',
+    fontSize: 20,
+    fontWeight: '600',
+  },
+  inactiveText: {
+    color: '#D7FDFF',
+    fontSize: 20,
+    fontWeight: '600',
   },
   container: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#FFF',
-  }
+    backgroundColor: '#19E3C6',
+  },
+  nextButton: {
+    height: 60,
+    borderRadius: 8,
+    borderColor: '#FF7FBF',
+    borderWidth: 2,
+    backgroundColor: '#FF7FBF',
+    margin: 20,
+    padding: 20,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  nextButtonText: {
+    color: '#D7FDFF',
+    fontSize: 20,
+    fontWeight: '600',
+  },
 });
 
 class Categories extends Component {
@@ -38,19 +82,23 @@ class Categories extends Component {
 
     let categoryNodes = categories.map((category) => {
       let btnStyles = user.categories.indexOf(category) !== -1 ? styles.active : styles.inactive;
+      let btnTextStyles = user.categories.indexOf(category) !== -1 ? styles.activeText : styles.inactiveText;
       return (
-        <Button key={category} style={btnStyles} onPress={() => this.handleSelection(category)}>
-          {category}
-        </Button>
+        <TouchableHighlight
+          key={category} style={btnStyles} onPress={() => this.handleSelection(category)}>
+          <Text style={btnTextStyles}>
+            {category}
+          </Text>
+        </TouchableHighlight>
       );
     });
 
     return (
       <View style={styles.container}>
         {categoryNodes}
-        <Button onPress={() => RouterActions.selector()}>
-          Find Your Perfect Matches 
-        </Button>
+        <TouchableHighlight style={styles.nextButton} onPress={() => RouterActions.selector()}>
+          <Text style={styles.nextButtonText}>Find Your Perfect Matches</Text>
+        </TouchableHighlight>
       </View>
     );
   }
