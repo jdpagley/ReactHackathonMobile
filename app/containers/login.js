@@ -13,6 +13,7 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import * as loginActions from '../actions'
 import { Actions } from 'react-native-router-flux'
+import Button from '../button.js';
 
 class LoginScreen extends Component {
   state = {
@@ -43,25 +44,18 @@ class LoginScreen extends Component {
 
     return (
       <View style={styles.container}>
-        <View>
-          {error}
-          <Image style={styles.logo}
-              source={require('../assets/fig_logo2x.png')} />
-          <TextInput
-            style={styles.input}
-            onChangeText={email => this.setState({user})}
-            value={username}
-          />
-          <TouchableHighlight 
-					 onPress={this.loginEmail}
-					style={styles.button}>
-					<Image 
-          style={styles.button}
-          source={require('../assets/login_button.png')}/>
-				</TouchableHighlight>
+        {error}
+        <Image style={styles.logo}
+            source={require('../assets/fig_logo2x.png')} />
 
-         
-        </View>
+        <TextInput
+          style={styles.input}
+          onChangeText={email => this.setState({user})}
+          value={username} />
+
+        <Button
+					onPress={this.loginEmail}
+					text="you won't regret this" />
       </View>
     );
   }
@@ -76,6 +70,7 @@ const styles = StyleSheet.create({
   },
   input: {
     alignSelf: 'center',
+    borderRadius: 8,
     height: 60,
     width: 256,
     borderColor: '#d7fdff',
@@ -83,7 +78,7 @@ const styles = StyleSheet.create({
     marginTop:10,
     fontFamily: 'Avenir',
     paddingLeft:10,
-    color:'#888'
+    color:'#888',
   },
   button:{
     marginTop:10,
@@ -91,7 +86,6 @@ const styles = StyleSheet.create({
   },
   logo:{
     alignItems:'center',
-    marginLeft:50,
     marginBottom: 20
   }
 });

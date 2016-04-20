@@ -23,28 +23,28 @@ const initialStoreState = {
   categories: ['Cats', 'Goats', 'StarWars', 'Trump'],
   gifs: {
     Cats: [ 
-      'http://i.giphy.com/W8krmZSDxPIfm.gif',
-      'http://i.giphy.com/LaH30pQFwXJ7i.gif',
-      'http://i.giphy.com/c7kqZMtzMLpG8.gif',
-      'http://i.giphy.com/p6DsF6TrStko8.gif'
+      '../assets/gifs/cats/brandycat.gif',
+      '../assets/gifs/cats/catboxes.gif',
+      '../assets/gifs/cats/catpizza.gif',
+      '../assets/gifs/cats/kittendance.gif'
     ],
     Goats: [
-      'http://i.giphy.com/xT0BKvuvDLDDYK0fO8.gif',
-      'http://i.giphy.com/3oEdvbdNAFFA8XZzSo.gif',
-      'http://i.giphy.com/iteH7x9sWBccM.gif',
-      'http://i.giphy.com/11kHba1r2SK7AY.gif'
+      '../assets/gifs/goats/goatbed.gif',
+      '../assets/gifs/goats/goatchew.gif',
+      '../assets/gifs/goats/goatkiss.gif',
+      '../assets/gifs/goats/goatpushup.gif'
     ],
     StarWars: [
-      'http://i.giphy.com/10juQ7fAaQjuHS.gif',
-      'http://i.giphy.com/iXQ8SgaMQAgtq.gif',
-      'http://i.giphy.com/3o7abIn8H8TTzmQrcc.gif',
-      'http://i.giphy.com/Ov5NiLVXT8JEc.gif'
+      '../assets/gifs/star_wars/cats.gif',
+      '../assets/gifs/star_wars/chewie.gif',
+      '../assets/gifs/star_wars/lea.gif',
+      '../assets/gifs/star_wars/thumbsup.gif'
     ],
     Trump: [
-      'http://i.giphy.com/6kVhzpAV3TMCQ.gif',
-      'http://i.giphy.com/jSB2l4zJ82Rvq.gif',
-      'http://i.giphy.com/CQwNwVTNNLC6Y.gif',
-      'http://i.giphy.com/xT0BKvuvDLDDYK0fO8.gif'
+      '../assets/gifs/trump/alf.gif',
+      '../assets/gifs/trump/donaldgrump.gif',
+      '../assets/gifs/trump/makeamericagreat.gif',
+      '../assets/gifs/trump/sexytrump.gif'
     ]
   }
 };
