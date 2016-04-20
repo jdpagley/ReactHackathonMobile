@@ -12,13 +12,12 @@ import {connect} from 'react-redux'
 import {bindActionCreators} from 'redux'
 import Button from 'react-native-button/Button'
 import {Actions as RouterActions} from 'react-native-router-flux'
-import * as actionCreators from '../actions' 
+import * as actionCreators from '../actions'
 
 const styles = StyleSheet.create({
   username: {
     marginTop: 80,
     fontSize: 30 ,
-
   },
   gif: {
     width: 400,
@@ -91,14 +90,12 @@ class Selector extends Component {
         <Text style={styles.username}>{user.name}</Text>
         <TouchableHighlight
           onPress={this.handleShowLikes}
-          style={styles.likeButton}
-          underlayColor=''>
+          style={styles.likeButton}>
             <Text style={styles.likeButtonText}>Likes</Text>
         </TouchableHighlight>
-        <TouchableHighlight 
+        <TouchableHighlight
           onPress={this.handleShowDislikes}
-          style={styles.dislikeButton}
-           underlayColor=''>
+          style={styles.dislikeButton}>
             <Text style={styles.dislikeButtonText}>Dislikes</Text>
         </TouchableHighlight>
         <ScrollView style={styles.scrollView}>
