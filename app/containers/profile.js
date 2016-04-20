@@ -5,6 +5,7 @@ import React, {
   ScrollView,
   Image,
   Text,
+  TouchableHighlight,
   PropTypes
 } from 'react-native';
 import {connect} from 'react-redux'
@@ -16,7 +17,8 @@ import * as actionCreators from '../actions'
 const styles = StyleSheet.create({
   username: {
     marginTop: 80,
-    fontSize: 30 
+    fontSize: 30 ,
+
   },
   gif: {
     width: 400,
@@ -31,7 +33,39 @@ const styles = StyleSheet.create({
   scrollView: {
     marginTop: 30,
     height: 400
-  }
+  },
+  likeButton: {
+    height: 60,
+    borderRadius: 8,
+    borderColor: '#FF7FBF',
+    borderWidth: 2,
+    backgroundColor: '#FF7FBF',
+    margin: 20,
+    padding: 20,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  likeButtonText: {
+    color: '#D7FDFF',
+    fontSize: 20,
+    fontWeight: '600',
+  },
+  dislikeButton: {
+    height: 60,
+    borderRadius: 8,
+    borderColor: '#19e3c6',
+    borderWidth: 2,
+    backgroundColor: '#19e3c6',
+    margin: 20,
+    padding: 20,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  dislikeButtonText: {
+    color: '#D7FDFF',
+    fontSize: 20,
+    fontWeight: '600',
+  },
 });
 
 class Selector extends Component {
@@ -55,12 +89,18 @@ class Selector extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.username}>{user.name}</Text>
-        <Button onPress={this.handleShowLikes}>
-          Likes 
-        </Button>
-        <Button onPress={this.handleShowDislikes}>
-          Disikes
-        </Button>
+        <TouchableHighlight
+          onPress={this.handleShowLikes}
+          style={styles.likeButton}
+          underlayColor=''>
+            <Text style={styles.likeButtonText}>Likes</Text>
+        </TouchableHighlight>
+        <TouchableHighlight 
+          onPress={this.handleShowDislikes}
+          style={styles.dislikeButton}
+           underlayColor=''>
+            <Text style={styles.dislikeButtonText}>Dislikes</Text>
+        </TouchableHighlight>
         <ScrollView style={styles.scrollView}>
           {this.getGifNodes(user[this.state.active])}
         </ScrollView>
