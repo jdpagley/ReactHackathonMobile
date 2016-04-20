@@ -83,11 +83,9 @@ class Selector extends Component {
 
     const {user} = this.props;
 
-    console.log('user: ', this.state.active, user);
-
     return (
       <View style={styles.container}>
-        <Text style={styles.username}>{user.name}</Text>
+        <Text style={styles.username}>{user.username}</Text>
         <TouchableHighlight
           onPress={this.handleShowLikes}
           style={styles.likeButton}>
