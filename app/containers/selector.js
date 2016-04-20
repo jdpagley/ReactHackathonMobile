@@ -3,20 +3,31 @@ import React, {
   StyleSheet,
   View,
   Image,
-  PropTypes, 
-  Text
+  PropTypes,
+  Text,
+  TouchableHighlight,
 } from 'react-native';
+
 import {connect} from 'react-redux'
 import {bindActionCreators} from 'redux'
 import {Actions as RouterActions} from 'react-native-router-flux'
-import * as actionCreators from '../actions' 
-import Button from 'react-native-button/Button'
+import * as actionCreators from '../actions'
 
-// Styles *********************************
 const styles = StyleSheet.create({
+  dislikeImg: {
+    alignItems:'center',
+    marginLeft:50,
+    marginBottom: 20
+  },
+  likeImg: {
+    alignItems:'center',
+    marginLeft:50,
+    marginBottom: 20,
+    marginTop: 20,
+  },
   activeGif: {
     width: 400,
-    height: 300
+    height: 300,
   },
   container: {
     flex: 1,
@@ -31,7 +42,8 @@ const styles = StyleSheet.create({
     color: '#d7fdff'
   },
   spacer:{
-    flex: 1
+    flex: 1,
+    marginTop: 70
   }
 });
 
@@ -56,17 +68,17 @@ class Selector extends Component {
     return (
       <View style={styles.container}>
         <View style={styles.spacer}></View>
-        <View style={styles.spacer}></View>
         <Text style={styles.text}>Love it or Leave it?</Text>
         <View style={styles.spacer}></View>
         <Image source={{uri:gifs[activeIndex]}} style={styles.activeGif}/>
-        <View style={styles.spacer}></View>
-        <Button onPress={() => this.handleLike(gifs[activeIndex])}>
-          Like 
-        </Button>
-        <Button onPress={() => this.handleDislike(gifs[activeIndex])}>
-          Disike 
-        </Button>
+        <TouchableHighlight onPress={() => this.handleLike(gifs[activeIndex])}>
+          <Image style={styles.likeImg}
+              source={require('../assets/heart2x.png')} />
+        </TouchableHighlight>
+        <TouchableHighlight onPress={() => this.handleDislike(gifs[activeIndex])}>
+          <Image style={styles.dislikeImg}
+              source={require('../assets/cancel.png')} />
+        </TouchableHighlight>
         <View style={styles.spacer}></View>
         <View style={styles.spacer}></View>
       </View>
@@ -89,7 +101,7 @@ class Selector extends Component {
 
     /**
      * Randomly shuffle gifs
-     */ 
+     */
     while (0 !== currentIndex) {
 
       // Pick a remaining element...
@@ -102,7 +114,7 @@ class Selector extends Component {
       list[randomIndex] = temporaryValue;
     }
 
-    return list; 
+    return list;
   }
 
   handleLike(gif) {
@@ -111,7 +123,7 @@ class Selector extends Component {
     let {gifs, activeGifIndex} = this.state;
 
     let newActiveIndex = this.state.activeIndex++;
-    
+
     this.setState({activeGifIndex: newActiveIndex});
     actions.like(gif);
 
@@ -126,7 +138,7 @@ class Selector extends Component {
     let {gifs, activeGifIndex} = this.state;
 
     let newActiveIndex = this.state.activeIndex++;
-    
+
     this.setState({activeGifIndex: newActiveIndex});
     actions.dislike(gif);
 
