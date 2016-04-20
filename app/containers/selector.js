@@ -128,7 +128,7 @@ class Selector extends Component {
     actions.like(gif);
 
     //When we hit the end of the array go to profile view
-    if ((gifs.length - 1) <= newActiveIndex) return RouterActions.profile();
+    if ((gifs.length - 1) <= newActiveIndex) return RouterActions.completion();
 
   }
 
@@ -143,7 +143,7 @@ class Selector extends Component {
     actions.dislike(gif);
 
     //When we hit the end of the array go to profile view
-    if ((gifs.length - 1) <= newActiveIndex) return RouterActions.profile();
+    if ((gifs.length - 1) <= newActiveIndex) return RouterActions.completion();
 
   }
 
