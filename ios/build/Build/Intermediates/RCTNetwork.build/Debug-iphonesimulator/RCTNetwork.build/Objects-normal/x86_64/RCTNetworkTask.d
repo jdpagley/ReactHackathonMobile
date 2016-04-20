@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 dependencies: \
   /Users/jeremypagley/Desktop/ReactHackathonMobile/node_modules/react-native/Libraries/Network/RCTNetworkTask.m \
   /Users/jeremypagley/Desktop/ReactHackathonMobile/node_modules/react-native/Libraries/Network/RCTNetworkTask.h \
@@ -5,3 +6,6 @@ dependencies: \
   ../../React/Base/RCTURLRequestHandler.h \
   ../../React/Base/RCTBridgeModule.h ../../React/Base/RCTDefines.h \
   ../../React/Base/RCTLog.h ../../React/Base/RCTAssert.h
+=======
+dependencies:
+>>>>>>> master

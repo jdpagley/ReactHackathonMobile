@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 dependencies: \
   /Users/jeremypagley/Desktop/ReactHackathonMobile/node_modules/react-native/Libraries/Image/RCTVirtualImageManager.m \
   /Users/jeremypagley/Desktop/ReactHackathonMobile/node_modules/react-native/Libraries/Image/RCTVirtualImageManager.h \
@@ -17,3 +18,6 @@ dependencies: \
   ../../React/Views/RCTImageComponent.h \
   ../../React/Base/RCTImageSource.h \
   /Users/jeremypagley/Desktop/ReactHackathonMobile/node_modules/react-native/Libraries/Image/RCTResizeMode.h
+=======
+dependencies:
+>>>>>>> master
