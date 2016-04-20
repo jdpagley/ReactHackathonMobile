@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/Josh/Documents/Personal/DevTutorials/AwesomeProject/node_modules/react-native/Libraries/Network/RCTFileRequestHandler.m \
-  /Users/Josh/Documents/Personal/DevTutorials/AwesomeProject/node_modules/react-native/Libraries/Network/RCTFileRequestHandler.h \
+  /Users/jeremypagley/Desktop/ReactHackathonMobile/node_modules/react-native/Libraries/Network/RCTFileRequestHandler.m \
+  /Users/jeremypagley/Desktop/ReactHackathonMobile/node_modules/react-native/Libraries/Network/RCTFileRequestHandler.h \
   ../../React/Base/RCTURLRequestHandler.h \
   ../../React/Base/RCTBridgeModule.h ../../React/Base/RCTDefines.h \
   ../../React/Base/RCTURLRequestDelegate.h \

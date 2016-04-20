@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 dependencies: \
-  /Users/Josh/Documents/Personal/DevTutorials/AwesomeProject/node_modules/react-native/Libraries/Image/RCTVirtualImageManager.m \
-  /Users/Josh/Documents/Personal/DevTutorials/AwesomeProject/node_modules/react-native/Libraries/Image/RCTVirtualImageManager.h \
+  /Users/kellyrhodes/Desktop/ReactHackathonMobile/node_modules/react-native/Libraries/Image/RCTVirtualImageManager.m \
+  /Users/kellyrhodes/Desktop/ReactHackathonMobile/node_modules/react-native/Libraries/Image/RCTVirtualImageManager.h \
+  ../../React/Views/RCTViewManager.h ../../React/Base/RCTBridgeModule.h \
+  ../../React/Base/RCTDefines.h ../../React/Base/RCTConvert.h \
+  ../../React/Layout/Layout.h
+=======
+<<<<<<< HEAD
+dependencies: \
+  /Users/jeremypagley/Desktop/ReactHackathonMobile/node_modules/react-native/Libraries/Image/RCTVirtualImageManager.m \
+  /Users/jeremypagley/Desktop/ReactHackathonMobile/node_modules/react-native/Libraries/Image/RCTVirtualImageManager.h \
   ../../React/Views/RCTViewManager.h ../../React/Base/RCTBridgeModule.h \
   ../../React/Base/RCTDefines.h ../../React/Base/RCTConvert.h \
   ../../React/Layout/Layout.h ../../React/Views/RCTAnimationType.h \
@@ -12,8 +21,12 @@ dependencies: \
   ../../React/Base/RCTBridgeDelegate.h ../../React/Base/RCTFrameUpdate.h \
   ../../React/Base/RCTInvalidating.h \
   ../../React/Base/RCTJavaScriptExecutor.h \
-  /Users/Josh/Documents/Personal/DevTutorials/AwesomeProject/node_modules/react-native/Libraries/Image/RCTShadowVirtualImage.h \
+  /Users/jeremypagley/Desktop/ReactHackathonMobile/node_modules/react-native/Libraries/Image/RCTShadowVirtualImage.h \
   ../../React/Views/RCTShadowView.h ../../React/Base/RCTRootView.h \
   ../../React/Views/RCTImageComponent.h \
   ../../React/Base/RCTImageSource.h \
-  /Users/Josh/Documents/Personal/DevTutorials/AwesomeProject/node_modules/react-native/Libraries/Image/RCTResizeMode.h
+  /Users/jeremypagley/Desktop/ReactHackathonMobile/node_modules/react-native/Libraries/Image/RCTResizeMode.h
+=======
+dependencies:
+>>>>>>> master
+>>>>>>> master
